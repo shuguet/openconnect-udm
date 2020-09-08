@@ -4,7 +4,7 @@
 server='vpn.company.com'
 username='first.last'
 password='my_password'
-secret='MY_2FA_TOCKEN'
+secret='MY_2FA_TOKEN'
 ### END CONFIGURATION ###
 
 # Generate TOTP challenge
