@@ -2,6 +2,8 @@
 OpenConnect VPN Client for the UniFi Dream Machine Pro (Unofficial)
 
 ## Notes:
+Require the use of the excellent On Boot script from: https://github.com/boostchicken/udm-utilities/blob/master/on-boot-script/README.md
+
 Because of the way OpenConnect works with the particular Global Protect VPN endpoint I'm using (requires a 2FA auth based on an Okta prompt) I actually didn't put the connection script in the container image itself.
 
 Instead I just put a generic entrypoint shell script in there that does nothing.
